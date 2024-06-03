@@ -1,8 +1,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
-    background-color: #fec5ff;
-
+    background-color: #ffc2c2;
 }
 
 h1 {
@@ -12,27 +11,21 @@ h1 {
 form {
     background-color: white;
     text-align: center;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.658);
 }
 
-.ageBox {
-    width: 50%;
-    text-align: center;
-    font-size: 1.5em;
-    border: 2px solid rgba(0, 0, 0, 0.818);
-    border-radius: 4px;
-    margin-bottom: 5px;
-}
+table {
+    margin: auto;
+    width: 75%;
 
-label {
-    font-weight: bold;
 }
 
 button {
+    margin-top: 25px;
     background-color: rgb(0, 92, 18);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px 40px 10px 40px;
@@ -41,15 +34,22 @@ button {
     border-radius: 5px;
     color: white;
     cursor: pointer;
-
 }
 
 button:hover {
     background-color: rgb(0, 69, 14);
 }
 
-
-
-#result {
-    font-size: 1.5em;
+.numInput {
+    width: 60px;
 }
+
+input {
+    width: 180px;
+    border-width: 1.5px;
+    height: 30px;
+    font-size: 19px;
+}
+
+
+
